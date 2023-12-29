@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="321d1c94-fbca-4509-87fa-28ad0b61c6c8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GJaxrg682MoGyk41BmPR7hhdim" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/skyle/OneDrive - UAB - The University of Alabama at Birmingham/CS 420/Design and Implementation Part 2/Design and Implementation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redshift&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\skyle\OneDrive - UAB - The University of Alabama at Birmingham\CS 420\Design and Implementation\Design and Implementation\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\skyle\OneDrive - UAB - The University of Alabama at Birmingham\CS 420\Design and Implementation\Design and Implementation\src\main\java\com\example\itemInformation" />
+      <recent name="C:\Users\skyle\OneDrive - UAB - The University of Alabama at Birmingham\CS 420\Design and Implementation\Design and Implementation\src\main\resources\com\example\designandimplementation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="items" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.designandimplementation.Application" />
+      <module name="Design and Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.designandimplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SliceToolwindowSettings">
+    <option name="autoScroll" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="321d1c94-fbca-4509-87fa-28ad0b61c6c8" name="Changes" comment="" />
+      <created>1666109392230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666109392230</updated>
+      <workItem from="1666109394454" duration="615000" />
+      <workItem from="1666121394017" duration="1835000" />
+      <workItem from="1666131743932" duration="19126000" />
+      <workItem from="1666588264884" duration="129000" />
+      <workItem from="1666626734129" duration="22225000" />
+      <workItem from="1666671166908" duration="42503000" />
+      <workItem from="1666796670254" duration="3173000" />
+      <workItem from="1666895424373" duration="2221000" />
+      <workItem from="1666977110960" duration="30480000" />
+      <workItem from="1667019153261" duration="9213000" />
+      <workItem from="1667060016759" duration="17466000" />
+      <workItem from="1667082239962" duration="600000" />
+      <workItem from="1667170638849" duration="3801000" />
+      <workItem from="1667174943218" duration="6000" />
+      <workItem from="1667175206778" duration="3103000" />
+      <workItem from="1667180122433" duration="2864000" />
+      <workItem from="1667319698712" duration="445000" />
+      <workItem from="1667926313155" duration="28290000" />
+      <workItem from="1667970153124" duration="6138000" />
+      <workItem from="1668015543354" duration="668000" />
+      <workItem from="1668021814037" duration="660000" />
+      <workItem from="1668022757365" duration="428000" />
+      <workItem from="1668023583240" duration="14000" />
+      <workItem from="1668025862876" duration="42000" />
+      <workItem from="1668122022460" duration="4074000" />
+      <workItem from="1668189592956" duration="27050000" />
+      <workItem from="1668456226625" duration="7000" />
+      <workItem from="1668462758518" duration="15109000" />
+      <workItem from="1668540934432" duration="10061000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

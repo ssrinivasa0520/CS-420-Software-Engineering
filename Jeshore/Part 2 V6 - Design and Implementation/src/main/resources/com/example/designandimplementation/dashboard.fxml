@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.designandimplementation.Controller">
+   <center>
+      <AnchorPane prefHeight="600.0" prefWidth="1251.0">
+         <children>
+            <SplitPane dividerPositions="0.5" prefHeight="600.0" prefWidth="1250.0">
+               <items>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="442.0" style="-fx-background-color: rgba(176,196,222,0.5);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Label layoutX="34.0" layoutY="23.0" text="Farm Items">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <TreeView fx:id="treeView" layoutX="34.0" layoutY="71.0" onMousePressed="#treeViewClick" prefHeight="282.0" prefWidth="176.0" AnchorPane.bottomAnchor="247.0" AnchorPane.leftAnchor="34.0" AnchorPane.rightAnchor="232.0" AnchorPane.topAnchor="71.0">
+                                 <contextMenu>
+                                    <ContextMenu>
+                                       <items>
+                                          <MenuItem fx:id="addDrone" mnemonicParsing="false" onAction="#droneMenu" text="Add Drone" />
+                                          <MenuItem fx:id="addItem" mnemonicParsing="false" onAction="#itemMenu" text="Add Item" />
+                                          <MenuItem fx:id="addContainer" mnemonicParsing="false" onAction="#containerMenu" text="Add Container" />
+                                          <MenuItem fx:id="delete" mnemonicParsing="false" onAction="#deleteMenu" text="Delete" />
+                                          <MenuItem fx:id="name" mnemonicParsing="false" onAction="#nameMenu" text="Change Name" />
+                                          <MenuItem fx:id="position" mnemonicParsing="false" onAction="#positionMenu" text="Change Position" />
+                                          <MenuItem fx:id="size" mnemonicParsing="false" onAction="#sizeMenu" text="Change Size" />
+                                          <MenuItem fx:id="price" mnemonicParsing="false" onAction="#priceMenu" text="Change Price" />
+                                          <MenuItem fx:id="marketValue" mnemonicParsing="false" onAction="#marketValueMenu" text="Change Market Value" />
+                                          <MenuItem fx:id="color" mnemonicParsing="false" onAction="#colorMenu" text="Change Color" />
+                                       </items>
+                                    </ContextMenu>
+                                 </contextMenu>
+                              </TreeView>
+                              <AnchorPane fx:id="namePane" layoutX="221.0" layoutY="71.0" prefHeight="282.0" prefWidth="207.0" visible="false">
+                                 <children>
+                                    <Label layoutY="17.0" text="Name:" />
+                                    <TextField fx:id="nameField" layoutX="58.0" layoutY="13.0" />
+                                    <Button layoutX="76.0" layoutY="122.0" mnemonicParsing="false" onAction="#nameSave" prefHeight="39.0" prefWidth="100.0" text="Save">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane fx:id="positionPane" layoutX="221.0" layoutY="71.0" prefHeight="282.0" prefWidth="213.0" visible="false">
+                                 <children>
+                                    <Label layoutY="18.0" text="Position (X, Y):" />
+                                    <TextField fx:id="posXField" layoutX="87.0" layoutY="14.0" prefHeight="25.0" prefWidth="57.0" />
+                                    <TextField fx:id="posYField" layoutX="156.0" layoutY="14.0" prefHeight="25.0" prefWidth="57.0" />
+                                    <Button layoutX="76.0" layoutY="122.0" mnemonicParsing="false" onAction="#positionSave" prefHeight="39.0" prefWidth="100.0" text="Save">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane fx:id="sizePane" layoutX="224.0" layoutY="71.0" prefHeight="282.0" prefWidth="205.0" visible="false">
+                                 <children>
+                                    <Label layoutY="18.0" text="Size (L, W):" />
+                                    <TextField fx:id="lengthField" layoutX="70.0" layoutY="14.0" prefHeight="25.0" prefWidth="57.0" />
+                                    <TextField fx:id="widthField" layoutX="148.0" layoutY="14.0" prefHeight="25.0" prefWidth="57.0" />
+                                    <Button layoutX="77.0" layoutY="122.0" mnemonicParsing="false" onAction="#sizeSave" prefHeight="39.0" prefWidth="100.0" text="Save">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane fx:id="valuePane" layoutX="228.0" layoutY="71.0" prefHeight="282.0" prefWidth="196.0" visible="false">
+                                 <children>
+                                    <Label layoutY="18.0" text="Price:" />
+                                    <TextField fx:id="priceField" layoutX="47.0" layoutY="14.0" />
+                                    <Button layoutX="72.0" layoutY="122.0" mnemonicParsing="false" onAction="#priceSave" prefHeight="39.0" prefWidth="100.0" text="Save">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Button>
+                                    <Label layoutX="40.0" layoutY="18.0" text="\$" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane fx:id="colorPane" layoutX="214.0" layoutY="71.0" prefHeight="243.0" prefWidth="219.0" visible="false">
+                                 <children>
+                                    <Button layoutX="79.0" layoutY="150.0" mnemonicParsing="false" onAction="#colorSave" prefHeight="39.0" prefWidth="100.0" text="Save">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Button>
+                                    <ColorPicker fx:id="fontColorID" layoutX="135.0" layoutY="15.0" prefHeight="25.0" prefWidth="86.0">
+                                       <value>
+                                          <Color />
+                                       </value>
+                                    </ColorPicker>
+                                    <ColorPicker fx:id="containerColorID" layoutX="135.0" layoutY="55.0" prefHeight="25.0" prefWidth="86.0">
+                                       <value>
+                                          <Color />
+                                       </value>
+                                    </ColorPicker>
+                                    <Label layoutX="2.0" layoutY="19.0" text="Change Font Color:" />
+                                    <Label layoutX="2.0" layoutY="59.0" text="Change Container Color:" />
+                                    <ColorPicker fx:id="backgroundColor" layoutX="135.0" layoutY="101.0" prefHeight="25.0" prefWidth="86.0">
+                                       <value>
+                                          <Color />
+                                       </value>
+                                    </ColorPicker>
+                                    <Label layoutX="1.0" layoutY="98.0" text="Change Background&#10;Color:" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane fx:id="marketValuePane" layoutX="217.0" layoutY="71.0" prefHeight="282.0" prefWidth="196.0" visible="false">
+                                 <children>
+                                    <Label layoutY="18.0" text="Market Value:" />
+                                    <TextField fx:id="marketValueField" layoutX="88.0" layoutY="14.0" prefHeight="25.0" prefWidth="108.0" />
+                                    <Label layoutX="81.0" layoutY="18.0" text="\$" />
+                                    <Button layoutX="72.0" layoutY="122.0" mnemonicParsing="false" onAction="#marketValueSave" prefHeight="39.0" prefWidth="100.0" text="Save">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane fx:id="attributesPane" layoutX="219.0" layoutY="71.0" prefHeight="282.0" prefWidth="221.0" visible="false">
+                                 <children>
+                                    <Label text="Name:" />
+                                    <Label layoutY="22.0" text="Position (X, Y):" />
+                                    <Label layoutY="44.0" text="Size (L, W):" />
+                                    <Label layoutY="66.0" text="Price of &#10;item/container:" />
+                                    <Label layoutY="105.0" text="Market Value of &#10;item/container:" />
+                                    <Label layoutY="140.0" prefHeight="39.0" prefWidth="100.0" text="Price of All Items&#10;and its Container:" />
+                                    <Label layoutY="182.0" text="Market Value of All &#10;Items and its Container:" />
+                                    <Label fx:id="marketValueAllAtt" alignment="CENTER_RIGHT" layoutX="99.0" layoutY="192.0" prefHeight="17.0" prefWidth="108.0" text="N/A" textAlignment="RIGHT">
+                                       <graphic>
+                                          <Label text="\$" />
+                                       </graphic>
+                                    </Label>
+                                    <Label fx:id="priceAllAtt" alignment="CENTER_RIGHT" layoutX="99.0" layoutY="153.0" prefHeight="17.0" prefWidth="108.0" text="N/A" textAlignment="RIGHT">
+                                       <graphic>
+                                          <Label text="\$" />
+                                       </graphic>
+                                    </Label>
+                                    <Label fx:id="priceAtt" alignment="CENTER_RIGHT" layoutX="139.0" layoutY="74.0" prefHeight="17.0" prefWidth="69.0" text="N/A" textAlignment="RIGHT">
+                                       <graphic>
+                                          <Label text="\$" />
+                                       </graphic>
+                                    </Label>
+                                    <Label fx:id="sizeAtt" alignment="CENTER_RIGHT" layoutX="99.0" layoutY="44.0" prefHeight="17.0" prefWidth="108.0" text="N/A" textAlignment="RIGHT" />
+                                    <Label fx:id="posAtt" alignment="CENTER_RIGHT" layoutX="99.0" layoutY="22.0" prefHeight="17.0" prefWidth="108.0" text="N/A" textAlignment="RIGHT" />
+                                    <Label fx:id="nameAtt" alignment="CENTER_RIGHT" layoutX="99.0" prefHeight="17.0" prefWidth="108.0" text="N/A" />
+                                    <Label fx:id="marketValueAtt" alignment="CENTER_RIGHT" layoutX="139.0" layoutY="111.0" prefHeight="17.0" prefWidth="69.0" text="N/A" textAlignment="RIGHT">
+                                       <graphic>
+                                          <Label text="\$" />
+                                       </graphic>
+                                    </Label>
+                                    <Label layoutY="220.0" text="Font Color:" />
+                                    <Label layoutY="241.0" text="Container Color:" />
+                                    <Label fx:id="containerAtt" alignment="CENTER_RIGHT" layoutX="99.0" layoutY="241.0" prefHeight="17.0" prefWidth="108.0" text="N/A" textAlignment="RIGHT" />
+                                    <Label fx:id="fontAtt" alignment="CENTER_RIGHT" layoutX="99.0" layoutY="220.0" prefHeight="17.0" prefWidth="108.0" text="N/A" textAlignment="RIGHT" />
+                                 </children>
+                              </AnchorPane>
+                              <Label layoutX="123.0" layoutY="401.0" text="Drone Commands">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="simulatorButton" disable="true" layoutX="14.0" layoutY="542.0" mnemonicParsing="false" onAction="#onClickSimulator" prefHeight="39.0" prefWidth="202.0" text="Launch Simulator">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Button>
+                              <RadioButton fx:id="visitRadioButton" layoutX="68.0" layoutY="451.0" mnemonicParsing="false" onAction="#onClickVisitRadioButton" prefHeight="17.0" prefWidth="233.0" selected="true" text="Visit Item/Container">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton fx:id="scanRadioButton" layoutX="68.0" layoutY="484.0" mnemonicParsing="false" onAction="#onClickScanRadioButton" prefHeight="17.0" prefWidth="233.0" text="Scan Farm">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <Button fx:id="launchButton" disable="true" layoutX="230.0" layoutY="542.0" mnemonicParsing="false" onAction="#onClickLaunch" prefHeight="39.0" prefWidth="200.0" text="Launch Drone">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Button>
+                              <Label layoutX="85.0" layoutY="522.0" text="Simulator">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="311.0" layoutY="522.0" text="Drone">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="farmVisualization" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: rgba(144,238,144,0.5);">
+                     <children>
+                        <ImageView fx:id="drone" disable="true" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" visible="false" x="50.0" y="50.0">
+                           <image>
+                              <Image url="@drone.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </items>
+            </SplitPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <Label text="Farm Dashboard" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+   </top>
+   <left>
+      <Label text="   " visible="false" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </left>
+   <right>
+      <Label text="   " BorderPane.alignment="CENTER">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </right>
+   <bottom>
+      <Label text="          " BorderPane.alignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </bottom>
+</BorderPane>

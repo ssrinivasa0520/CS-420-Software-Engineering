@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/skyle/Eclipse/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.base.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/skyle/Eclipse/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.controls.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/skyle/Eclipse/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.fxml.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/skyle/Eclipse/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.graphics.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/skyle/Eclipse/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.media.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/skyle/Eclipse/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.swing.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/skyle/Eclipse/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.web.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/skyle/Eclipse/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx-swt.jar"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

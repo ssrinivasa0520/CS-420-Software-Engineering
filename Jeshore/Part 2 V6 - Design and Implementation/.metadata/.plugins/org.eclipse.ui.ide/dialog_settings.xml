@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" marketValue="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" marketValue="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" marketValue="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" marketValue="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item marketValue="C:\Users\skyle\OneDrive - UAB - The University of Alabama at Birmingham\CS 420\Design and Implementation\Design and Implementation"/>
+		</list>
+	</section>
+</section>

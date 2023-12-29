@@ -1,0 +1,515 @@
+<mxfile host="app.diagrams.net" modified="2023-09-26T02:12:53.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="69PHM3iuUxNY-YXMAyIC" version="21.8.2" type="device" pages="3">
+  <diagram id="4um2gKCAfB23NJnJ0VFd" name="Individual Use Cases">
+    <mxGraphModel dx="2490" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TH1MS-x_CLSVfXq_Zxxo-1" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TH1MS-x_CLSVfXq_Zxxo-10" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Farm&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Management System&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TH1MS-x_CLSVfXq_Zxxo-11" value="Detecting Wildlife" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="175" y="140" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jcUZsNPMRemSoPe6aqb2-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TH1MS-x_CLSVfXq_Zxxo-1" target="TH1MS-x_CLSVfXq_Zxxo-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="210" as="sourcePoint" />
+            <mxPoint x="175" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcUZsNPMRemSoPe6aqb2-2" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="515" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jcUZsNPMRemSoPe6aqb2-5" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="605" as="sourcePoint" />
+            <mxPoint x="610" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcUZsNPMRemSoPe6aqb2-4" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="575" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jcUZsNPMRemSoPe6aqb2-6" value="Farm Management&lt;br&gt;System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="525" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPfPDWB_ZJC9qNKEnLVF-2" value="Detection of Damage to Infrastructure" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="610" y="585" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="80" width="155" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-2" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="900" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-3" value="Navigation Assistance to Specific Farm Locations" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1057.5" y="150" width="102.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-4" value="Farm&lt;br&gt;Management&lt;br&gt;System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="C3q1HsH8Zarrx_W9fXwR-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="175" as="sourcePoint" />
+            <mxPoint x="1025" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1045" y="505" width="155" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-24" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="930" y="570" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-25" value="&lt;span id=&quot;docs-internal-guid-2153b64b-7fff-760e-a08f-6de862239b44&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;Aerial Farm Imaging with Gridding and Tractor Path Planning&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1071.25" y="552.5" width="97.5" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-26" value="Farm&lt;br&gt;Management&lt;br&gt;System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-27" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="C3q1HsH8Zarrx_W9fXwR-24" target="C3q1HsH8Zarrx_W9fXwR-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="635" as="sourcePoint" />
+            <mxPoint x="1040" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="582.5" y="80" width="155" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-2" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="145" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-3" value="&lt;span id=&quot;docs-internal-guid-8dd8d529-7fff-9c65-739e-58dd05d31344&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;Control of Sprinkler System&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="612.5" y="160" width="107.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-4" value="Farm&lt;br&gt;Management&lt;br&gt;System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3ZTJvuzw1xugpm4UXg8w-2" target="3ZTJvuzw1xugpm4UXg8w-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="210" as="sourcePoint" />
+            <mxPoint x="580" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-295" y="505" width="155" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-11" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="570" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-12" value="&lt;span id=&quot;docs-internal-guid-71886cd5-7fff-0b41-8534-08dae270cb66&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;Notification for Blight&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-271.25" y="565" width="107.5" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-13" value="Farm&lt;br&gt;Management&lt;br&gt;System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZTJvuzw1xugpm4UXg8w-14" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3ZTJvuzw1xugpm4UXg8w-11" target="3ZTJvuzw1xugpm4UXg8w-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="635" as="sourcePoint" />
+            <mxPoint x="-300" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-295" y="100" width="155" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-33" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="165" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-34" value="&lt;font face=&quot;Arial&quot;&gt;Data Compilation for Optimal Harvest Timing&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="-281.25" y="160" width="127.5" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-35" value="Farm&lt;br&gt;Management&lt;br&gt;System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="C3q1HsH8Zarrx_W9fXwR-33" target="C3q1HsH8Zarrx_W9fXwR-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="230" as="sourcePoint" />
+            <mxPoint x="-300" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="515" width="155" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-42" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="580" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-43" value="&lt;font face=&quot;Arial&quot;&gt;Alert System for Fires&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="192.5" y="585" width="107.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-44" value="Farm&lt;br&gt;Management&lt;br&gt;System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="525" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C3q1HsH8Zarrx_W9fXwR-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="C3q1HsH8Zarrx_W9fXwR-42" target="C3q1HsH8Zarrx_W9fXwR-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="645" as="sourcePoint" />
+            <mxPoint x="160" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-1" value="&lt;b&gt;Brief Description&lt;/b&gt;&lt;br&gt;Identifying fauna that is primarily located within agricultural fields.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="290" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-2" value="&lt;b&gt;Step-by-Step Description&lt;/b&gt;&lt;br&gt;Drones on surveillance duty will remain stationary and utilize their cameras to scan for any signs of motion." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="340" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-3" value="&lt;b&gt;Brief Description&lt;/b&gt;&lt;br&gt;Decide the appropriate timing for activating or deactivating the sprinkler system." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="520" y="280" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-4" value="&lt;b&gt;Step-by-Step Description&lt;/b&gt;&lt;br&gt;The system autonomously adjusts the sprinkler status based on data acquired from soil analysis." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="520" y="330" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-5" value="&lt;b&gt;Brief Description&lt;/b&gt;&lt;br&gt;Identify any harm inflicted upon fences or structures." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="725" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-6" value="&lt;b&gt;Step-by-Step Description&lt;br&gt;&lt;/b&gt;Currently unavailable.&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="775" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-7" value="&lt;b&gt;Brief Description&lt;/b&gt;&lt;br&gt;Spot signs of crop disease." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="705" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-8" value="&lt;b&gt;Step-by-Step Description&lt;br&gt;&lt;/b&gt;Drones will inspect plants for unusual wilting or discoloration and issue an alert if these deviations surpass a predefined threshold.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="755" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-9" value="&lt;b&gt;Brief Description&lt;/b&gt;&lt;br&gt;Chart a route and direct the user to specific locations within the farm." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="972.5" y="280" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-10" value="&lt;b&gt;Step-by-Step Description&lt;br&gt;&lt;/b&gt;The drone will be instructed to follow a predefined route, which the user can track to reach specific coordinates.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="972.5" y="330" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-11" value="&lt;b&gt;Brief Description&lt;/b&gt;&lt;br&gt;Gather information to ascertain the optimal harvesting timing." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="300" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-12" value="&lt;b&gt;Step-by-Step Description&lt;br&gt;&lt;/b&gt;An algorithm will utilize growth data collected over a period to determine the ideal harvest time." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="350" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-13" value="&lt;b&gt;Brief Description&lt;/b&gt;&lt;br&gt;Establish a gridded layout across the farm to create pathways for agricultural machinery." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="980" y="705" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-14" value="&lt;b&gt;Step-by-Step Description&lt;br&gt;&lt;/b&gt;Drones will utilize their flight paths to chart the spatial layout of different farm zones." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="980" y="755" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-15" value="&lt;b&gt;Brief Description&lt;/b&gt;&lt;br&gt;Identify temperature spikes." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="715" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vOcBIelgj4l8DC9YDQ-16" value="&lt;b&gt;Step-by-Step Description&lt;/b&gt;&lt;br&gt;Patrolling drones will continually observe the surrounding temperature and issue an alert when the recorded temperature surpasses a specific threshold." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="755" width="280" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-qOg1UVlgXfMNy_iU5KJ" name="Wireframe">
+    <mxGraphModel dx="2814" dy="2011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T6OipnHsvAS3GVhBoPne-1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Theft%20in%20Progress%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22245%22%20y%3D%22250%22%20width%3D%22135%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#0097D9;strokeColor3=#C4C4C4;mainText=;fontSize=17;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="165" y="115" width="1155" height="745" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-2" value="Notification Alerts" style="swimlane;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="190" y="170" width="375" height="300" as="geometry">
+            <mxRectangle x="190" y="170" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-4" value="Wildlife Spotted at ___ Location." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-2" vertex="1">
+          <mxGeometry x="45" y="37.6" width="135" height="32.4" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-5" value="Damage Identified at ___" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-2" vertex="1">
+          <mxGeometry x="56.7" y="103.2" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nyMq2hAGcwKseDdpKZ-3" value="Farm Mapping Underway." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-2" vertex="1">
+          <mxGeometry x="35" y="153" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nyMq2hAGcwKseDdpKZ-6" value="Activation/Deactivation of Sprinklers." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-2" vertex="1">
+          <mxGeometry x="240" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w7RPifx10DvSIGGrjfJT-1" value="Harvest Time Identified for ___." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-2" vertex="1">
+          <mxGeometry x="225" y="153" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="w7RPifx10DvSIGGrjfJT-2" value="Formation of Farm Grid Underway." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-2" vertex="1">
+          <mxGeometry x="39.2" y="223" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w7RPifx10DvSIGGrjfJT-3" value="Alert: Fire Detected at ____." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-2" vertex="1">
+          <mxGeometry x="235" y="230.24" width="110" height="35.76" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nyMq2hAGcwKseDdpKZ-7" value="Blight Identified." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-2" vertex="1">
+          <mxGeometry x="222.5" y="103.19999999999999" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8RSXhC1pZMWnXzmr396H-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/bell-alert-128.png;imageBackground=#FF8E0D;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-2">
+          <mxGeometry x="11.199999999999989" y="105.19999999999999" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="8RSXhC1pZMWnXzmr396H-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/bell-alert-128.png;imageBackground=#FF8E0D;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-2">
+          <mxGeometry x="11.2" y="164" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="8RSXhC1pZMWnXzmr396H-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/bell-alert-128.png;imageBackground=#FF8E0D;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-2">
+          <mxGeometry x="11.199999999999989" y="234" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="8RSXhC1pZMWnXzmr396H-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/bell-alert-128.png;imageBackground=#FF8E0D;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-2">
+          <mxGeometry x="197" y="39.79999999999998" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="8RSXhC1pZMWnXzmr396H-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/bell-alert-128.png;imageBackground=#FF8E0D;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-2">
+          <mxGeometry x="200" y="103.19999999999999" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="8RSXhC1pZMWnXzmr396H-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/bell-alert-128.png;imageBackground=#FF8E0D;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-2">
+          <mxGeometry x="200" y="164" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-7" value="Real-time Camera View" style="swimlane;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="170" width="290" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tBcEd5xamH5S5_MDL1Tj-18" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#0097D9;shape=mxgraph.azure.tablet;pointerEvents=1;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-7">
+          <mxGeometry x="150" y="196" width="120" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tBcEd5xamH5S5_MDL1Tj-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Drone 4&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-7">
+          <mxGeometry x="175" y="216.75" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-12" value="Operations" style="swimlane;fontSize=13;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="190" y="530" width="350" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-13" value="Display the wildlife tracking record." style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#0097D9;fontColor=#FFFFFF;" parent="T6OipnHsvAS3GVhBoPne-12" vertex="1">
+          <mxGeometry x="20" y="88.13" width="130" height="36.25" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDXs1eRgTGG5PDlZ5EQ-1" value="Provide directions to the designated area." style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#0097D9;" parent="T6OipnHsvAS3GVhBoPne-12" vertex="1">
+          <mxGeometry x="20" y="180" width="130" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-15" value="Display historical damage records." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0097D9;fontColor=#FFFFFF;" parent="T6OipnHsvAS3GVhBoPne-12" vertex="1">
+          <mxGeometry x="210" y="86.25" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-14" value="Playback Videos" style="swimlane;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="990" y="520" width="320" height="310" as="geometry">
+            <mxRectangle x="530" y="710" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2NS6HJJdCFPKQskozgW-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="T6OipnHsvAS3GVhBoPne-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="147.5" y="251.25" as="sourcePoint" />
+            <mxPoint x="150" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoiX9pUDGmllh2p3eOpc-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.tab2;strokeColor=#6c8ebf;direction=north;fillColor=#0097D9;whiteSpace=wrap;" vertex="1" parent="T6OipnHsvAS3GVhBoPne-14">
+          <mxGeometry x="49.39" y="70" width="221.21" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-20" value="" style="points=[[0,0.5,0],[0.19,0.02,0],[0.59,0,0],[0.985,0.02,0],[1,0.5,0],[0.985,0.98,0],[0.59,1,0],[0.19,0.98,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.camera;fillColor=#0097D9;strokeColor=none;rotation=-180;" parent="T6OipnHsvAS3GVhBoPne-14" vertex="1">
+          <mxGeometry x="124.00999999999999" y="110" width="71.99" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=100;entryDy=60;entryPerimeter=0;" parent="1" source="T6OipnHsvAS3GVhBoPne-13" target="T6OipnHsvAS3GVhBoPne-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="595.5" as="sourcePoint" />
+            <mxPoint x="35" y="500.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=100;entryDy=60;entryPerimeter=0;" parent="1" source="T6OipnHsvAS3GVhBoPne-15" target="T6OipnHsvAS3GVhBoPne-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="595.5" as="sourcePoint" />
+            <mxPoint x="37.16000000000031" y="609.6000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-18" value="Display wildlife footage in the playback interface." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="580" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T6OipnHsvAS3GVhBoPne-19" value="Present damage footage in the playback interface." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="910" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sJUthqzadMl2rlsCx_0m-7" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.pageControl;fillColor=#999999;strokeColor=#ddeeff;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="474.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJUthqzadMl2rlsCx_0m-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="490" as="sourcePoint" />
+            <mxPoint x="1380" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJUthqzadMl2rlsCx_0m-9" value="Navigate through three camera pages." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="437.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-1" value="Crop State" style="swimlane;fontSize=13;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="570" y="530" width="400" height="310" as="geometry">
+            <mxRectangle x="530" y="710" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.lineChart;strokeColor=#36393d;strokeColor2=#666666;strokeColor3=#008cff;strokeColor4=#dddddd;fillColor=none;" parent="zcSme4EzcZ336PvS9N8d-1" vertex="1">
+          <mxGeometry x="20" y="45" width="360" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="uUqKKhaHqFkLxpoX8htN-1" value="Generate a farm layout grid." style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#0097D9;" parent="1" vertex="1">
+          <mxGeometry x="400" y="710" width="130" height="41.25" as="geometry" />
+        </mxCell>
+        <mxCell id="uUqKKhaHqFkLxpoX8htN-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=100;entryDy=60;entryPerimeter=0;" parent="1" source="uUqKKhaHqFkLxpoX8htN-1" target="uUqKKhaHqFkLxpoX8htN-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="690" as="sourcePoint" />
+            <mxPoint x="180" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uUqKKhaHqFkLxpoX8htN-6" value="Generate a farm grid for equipment placement." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="920" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-3" value="Farm Map" style="swimlane;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="570" y="170" width="410" height="320" as="geometry">
+            <mxRectangle x="530" y="710" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-5" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.map;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="580" y="200" width="390" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zcSme4EzcZ336PvS9N8d-6" target="zcSme4EzcZ336PvS9N8d-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-6" value="Displays real-time crop health by measuring height." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="715" y="930" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="zcSme4EzcZ336PvS9N8d-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="849" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-8" value="Aerial Map Generated by Drones for the Farm." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="-30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDXs1eRgTGG5PDlZ5EQ-7" value="Chart a route and provide user directions to reach that destination." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="780" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDXs1eRgTGG5PDlZ5EQ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7TDXs1eRgTGG5PDlZ5EQ-1" target="7TDXs1eRgTGG5PDlZ5EQ-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="646.25" as="sourcePoint" />
+            <mxPoint x="130" y="616.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2NS6HJJdCFPKQskozgW-11" value="" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="180" as="sourcePoint" />
+            <mxPoint x="1430" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1370" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2NS6HJJdCFPKQskozgW-14" value="Live Perspective from Each Drone Covering the Farm." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="127.75999999999999" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m2NS6HJJdCFPKQskozgW-16" value="Replay of archived videos." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="930" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=100;exitDy=60;exitPerimeter=0;" parent="1" source="zcSme4EzcZ336PvS9N8d-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zcSme4EzcZ336PvS9N8d-13" value="The alert&#39;s location is established based on a predefined set of locations." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="220" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tBcEd5xamH5S5_MDL1Tj-12" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#0097D9;shape=mxgraph.azure.tablet;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1024.13" y="227.76" width="120" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tBcEd5xamH5S5_MDL1Tj-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Drone 1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1049.13" y="248.51" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tBcEd5xamH5S5_MDL1Tj-14" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#0097D9;shape=mxgraph.azure.tablet;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="227.76" width="120" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tBcEd5xamH5S5_MDL1Tj-15" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Drone 2&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="248.51" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tBcEd5xamH5S5_MDL1Tj-16" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#0097D9;shape=mxgraph.azure.tablet;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1024.13" y="368.5" width="120" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tBcEd5xamH5S5_MDL1Tj-17" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Drone 3&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1049.13" y="389.25" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8RSXhC1pZMWnXzmr396H-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/bell-alert-128.png;imageBackground=#FF8E0D;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="8RSXhC1pZMWnXzmr396H-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/bell-alert-128.png;imageBackground=#FF8E0D;" vertex="1" parent="1">
+          <mxGeometry x="390" y="409.5" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="m2NS6HJJdCFPKQskozgW-17" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.playbackControls;sketch=0;fillColor2=#0097D9;strokeColor2=none;fillColor3=#ffffff;strokeColor3=none;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1040.63" y="740" width="218.75" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1TJc_q03aI2GH-ble1ht" name="Combined Use Cases">
+    <mxGraphModel dx="1977" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4aRvdlmh6yYLrCoqnEWi-1" value="Farmer&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aRvdlmh6yYLrCoqnEWi-3" value="Wildlife Detection" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WryroSat7CWzRPlaewaj-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=none;endFill=0;exitX=0.194;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4aRvdlmh6yYLrCoqnEWi-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="440" as="targetPoint" />
+            <mxPoint x="370" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aRvdlmh6yYLrCoqnEWi-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Detection of Damage to Infrastructure&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WryroSat7CWzRPlaewaj-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="4aRvdlmh6yYLrCoqnEWi-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aRvdlmh6yYLrCoqnEWi-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Data Compilation for optimal harvest timing&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WryroSat7CWzRPlaewaj-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="4aRvdlmh6yYLrCoqnEWi-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aRvdlmh6yYLrCoqnEWi-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Control of Sprinkler System&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="320" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WryroSat7CWzRPlaewaj-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="4aRvdlmh6yYLrCoqnEWi-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aRvdlmh6yYLrCoqnEWi-12" value="Notification for Blight" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WryroSat7CWzRPlaewaj-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="4aRvdlmh6yYLrCoqnEWi-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aRvdlmh6yYLrCoqnEWi-13" value="&lt;span style=&quot;font-family: Arial; font-size: 11px;&quot;&gt;Aerial Farm Imaging with Gridding and Tractor Path Planning&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WryroSat7CWzRPlaewaj-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="FCLEJKPd-odwuQDPizgU-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCLEJKPd-odwuQDPizgU-1" value="Navigation Assistance to specific Farm Locations" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WryroSat7CWzRPlaewaj-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.956;exitY=0.742;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LBweIQAOusxPEyTR1Oyo-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="430" as="targetPoint" />
+            <mxPoint x="-100" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBweIQAOusxPEyTR1Oyo-1" value="Alert System for Fires" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4aRvdlmh6yYLrCoqnEWi-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Farm&lt;br&gt;Management&lt;br&gt;System&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="107.5" y="80" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WryroSat7CWzRPlaewaj-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="4aRvdlmh6yYLrCoqnEWi-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="400" as="sourcePoint" />
+            <mxPoint x="200" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
